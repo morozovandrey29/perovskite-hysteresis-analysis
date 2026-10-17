@@ -1,0 +1,42 @@
+{
+  "application": {
+    "title": "Perovskite Hysteresis — Ionic Relaxation Model",
+    "window_size": "1460x900",
+    "minimum_size": [
+      1200,
+      760
+    ]
+  },
+  "fit": {
+    "max_components": 4,
+    "default_model": "auto",
+    "default_weight_mode": "downweight",
+    "cutoff_hz": 100.0,
+    "weight_power": 2.0,
+    "beta": 1.0,
+    "fit_baseline": false
+  },
+  "display": {
+    "show_smoothed_original": true
+  },
+  "input": {
+    "preferred_sheet_name": "Analysis Results",
+    "frequency_columns": [
+      "Frequency",
+      "Freq",
+      "Frequency (Hz)"
+    ],
+    "hysteresis_area_columns": [
+      "Hyst_Area",
+      "Hyst Area",
+      "Hysteresis Area",
+      "HystArea"
+    ],
+    "device_columns": [
+      "Device",
+      "Cell",
+      "Sample",
+      "Element"
+    ]
+  }
+}
